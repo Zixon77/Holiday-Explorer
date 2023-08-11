@@ -14,7 +14,7 @@ function Search({navigation}) {
   const [loading,setLoading] = useState(false)
 
   const configuration = new Configuration({
-    apiKey: "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"
+    apiKey: 
   });
 
   const openai = new OpenAIApi(configuration);
